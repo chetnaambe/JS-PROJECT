@@ -1,0 +1,237 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgb(64, 62, 62);
+    color: white;
+ 
+    main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+           #card{
+           
+              height:610px;
+              width: 390px;
+              background-color:black;
+              position: relative;
+               overflow: hidden;
+               border-radius: 1rem;
+        
+                   #top{
+                   display: flex;
+                   align-items: center;
+               gap: 7rem; 
+               padding: 0.3rem 0.4rem;
+              
+                      button{
+                        padding: 0.8rem 5rem;
+                        background-color: rgb(46, 45, 45);
+                        border: none;
+                        color: white;
+                        border-radius: 2rem;
+                     
+                        i{
+                          font-size: 15px;
+                          
+                        }
+                      }
+                      i{
+                  font-size: 33px;
+                      }
+                   }
+                           #fullscreen{
+                            height: 100%;
+                            width: 100%;
+                            background-size: cover;
+                            background-position: center;
+                             background-repeat: no-repeat;
+                             position: absolute;   
+  top: 0;
+  left: 0;
+
+  display: none;
+  z-index: 10;
+
+     #video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+     #profile{
+       position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+ 
+  gap: 10px;
+  color: white; 
+    img{
+        width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+    }
+    #profileName{
+      font-size: 22px;
+      font-weight: 800;
+      color: transparent;
+      background-image: url(https://i.pinimg.com/736x/6b/fa/f1/6bfaf12f888406e01118c6a629da7e15.jpg);
+      background-clip:text ;
+      -webkit-background-clip: text;
+    }
+    #like{
+      font-size: 30px;
+      color:white;
+opacity: 1;
+transition: all 0.3s ease;
+position: relative;
+cursor: pointer;
+    }
+     }
+        }
+                 #stories{
+                  height: 100px;
+                  width: 100%;
+                
+                       display: flex;
+                       gap: 0.2rem;
+                       align-items: center;
+                      padding: 0rem 0.5rem;
+                       overflow-x: auto;
+                     .story{
+                      height: 90px;
+                      width: 90px;
+                      border-radius: 50%;
+                      border: 3px solid transparent;
+                      background:linear-gradient(white,white)padding-box,linear-gradient(#5F3EED,#DF22DA,#FF1FAC,#FE5C47,#FDB126)border-box;
+                       overflow: hidden;
+                       flex-shrink: 0;
+                         img{
+                         
+                          height: 100%;
+                          width: 100%;
+                           object-fit: cover;
+                          display: inline-block;
+                          object-position:center;
+                         }
+                       
+                     }
+                 }
+                 #stories::-webkit-scrollbar {
+  display: none;
+}
+#mid{
+overflow-x: hidden;
+overflow-y: auto;
+background-color:black;
+height: 75%;
+width: 100%;
+position: relative;
+padding: 0.5rem;
+scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+.reel{
+    position: relative;
+  height: 100%;
+  width: 100%;
+ border-radius: 1rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  scroll-snap-align:center;
+    scroll-snap-stop: always;
+ video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+
+  }
+  .mute{
+     position: absolute;
+    top:10px;
+    right:10px;
+    font-size: 20px;
+  }
+  .post{
+    position: absolute;
+    top:10px;
+    left:10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    img{
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+    }
+    h5{
+      font-size: 15px;
+      color: white;
+    }
+    button{
+      padding: 0.5rem 1.5rem;
+      border:2px solid white;
+      background: transparent;
+      border-radius: 1.5rem;
+      color: white;
+      cursor: pointer;
+    }
+  }
+  .right{
+     position: absolute;
+    top:6rem;
+    right: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+       i{
+        font-size: 27px;
+       }
+  }
+}
+ 
+
+}
+#mid::-webkit-scrollbar{
+  display: none;
+}
+
+                  #bot{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    position: absolute;
+                    bottom: 0%;
+                    width: 100%;
+                    background-color: black;
+              padding: 0.2rem 0.2rem;
+                    
+
+                 
+                    i{
+                      font-size: 22px;
+                    }
+                      #profile{
+                        img{
+                          height: 30px;
+                          width: 30px;
+                          border-radius: 50%;
+                          object-fit: cover;
+                        }
+                      }
+                     }
+
+           }
+    }
+}
