@@ -31,7 +31,17 @@ position: absolute;
 #video-wrapper #box{
     position: absolute;
     inset: 0;
-    background: radial-gradient(1100px at var(--x) var(--y),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.938));
+    background: radial-gradient(400px at var(--x) var(--y),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.938));
     height: 100%;
     width: 100%;
+    pointer-events: none;
 }
+  /* button {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 10;
+            padding: 10px 16px;
+            font-size: 16px;
+            
+        } */
