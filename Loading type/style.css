@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    font-size: 5rem;
+  font-weight: 800;
+  word-spacing: 1rem;
+    color: transparent;
+    background-image: url(https://i.pinimg.com/736x/a9/c3/34/a9c334dc55ca2550025aa0bda1f19872.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
