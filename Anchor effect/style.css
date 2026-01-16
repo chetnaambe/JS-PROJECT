@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+anchor-name: --some-anchor;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    
+
+}
+nav a:hover{
+       anchor-name: --some-anchor; 
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 3rem;
+}
+.anchor{
+    /* width: 60px;
+    height: 50px; */
+    background-color:rgba(207, 62, 180, 0.666);
+    border-radius: 10px;
+    position-anchor: --some-anchor;
+    position: absolute;
+    top: anchor(top);
+    left: anchor(left);
+    right: anchor(right);
+    bottom: anchor(bottom);
+    mix-blend-mode: difference;
+    pointer-events: none;
+    transition: all 0.2s linear;
+}
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    anchor-name: --some-anchor;
+}
+.box{
+    height: 300px;
+    width: 300px;
+
+}
+.box:hover{
+    
+  anchor-name: --some-anchor;
+}
+.red{
+    background-color: rgb(216, 48, 48);
+
+}
+.blue{
+    background-color: rgb(50, 50, 191);
+}
+.green{
+    background-color: rgb(60, 168, 60);
+}
+
+
+.anchor{
+    background-color:white;
+    border-radius: 10px;
+    position: absolute;
+    position-anchor:--some-anchor;
+   
+    top:anchor(top);
+    left:anchor(left);
+    right: anchor(right);
+    pointer-events: none;
+    bottom:anchor(bottom);
+    transition:all 0.3s linear;
+   
+      mix-blend-mode:difference;
+}  */
