@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.box{
+    height: 400px;
+    width: 400px;
+transition: all 0.3s linear;
+}
+.red{
+   background-image:url(https://i.pinimg.com/736x/36/c3/79/36c3793009503ea561a7f2f61828d9a1.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.blue{
+   background-image: url(https://i.pinimg.com/1200x/05/8c/b2/058cb2539b4b0abbd269148617068049.jpg);
+     background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.green{
+   background-image: url(https://i.pinimg.com/1200x/20/a0/6d/20a06d5a47fa67a17b1fd31992f2d4c3.jpg);
+     background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+/* Body ke sabhi box par hoever hoga to scale 0.8 kar dena  */
+body:has(.box:hover) .box{
+    transform: scale(0.8);
+    opacity: 0.5;
+}
+body .box:hover{
+    transform: scale(1.2) !important;
+}
