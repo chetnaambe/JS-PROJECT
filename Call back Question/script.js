@@ -1,6 +1,4 @@
 // Question regarding callback function
-
-
 // Exercise 1 
 
 function afterDelay(time,cb){
