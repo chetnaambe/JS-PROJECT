@@ -17,7 +17,7 @@ html,body{
     position: relative;
 }
 #bottom{
-    padding: 10px;
+    padding: 5px;
     width: 100%;
     background-color: black;
     position: absolute;
@@ -30,47 +30,48 @@ html,body{
 gap: 20px;
 }
 #mid img{
-    height:80px;
-    width:80px;
+    height:25px;
+    width:25px;
   /* background-color: tomato; */
 }
 
 #input{
- height: 40px;
- width: 300px;
+ height: 25px;
+ width: 200px;
  background-color: #383838;
 display: flex;
 align-items: center;
 gap: 10px;
-padding: 15px;
+padding: 10px;
 border-radius: 25px;
 color: white;
 }
 #input i{
-    font-size: 20px;
+    font-size: 8px;
 }
 #input h6{
- font-size: 20px;
+ font-size: 8px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 #SBox{
-    height: 800px;
-    width: 550px;
-    background-color:rgb(39, 36, 36);
+    height: 250px;
+    width: 200px;
+    /* background-color:rgb(39, 36, 36); */
+    background-color: #222020;
     position: fixed;
-   top:30%;
-   left: 45%;
+   top:50%;
+   left: 30%;
     display: none;
     z-index: 999;
-padding: 20px;
-border-radius: 30px;
+padding: 15px;
+border-radius: 10px;
 }
 #SBox.active {
     display: block;
 }
 #SBox h2{
-    font-size: 35px;
+    font-size: 10px;
     color: white;
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
@@ -81,7 +82,7 @@ border-radius: 30px;
     display: flex;
     align-items: center;
     gap: 30px;
-    margin-top: 50px;
+    margin-top: 15px;
 }
 #one:hover{
 background-color: #443f3f;
@@ -91,7 +92,7 @@ background-color: #443f3f;
     display: flex;
     align-items: center;
     gap: 30px;
-    margin-top: 50px;
+    margin-top: 15px;
 }
 #two:hover{
 background-color: #443f3f;
@@ -102,7 +103,7 @@ background-color: #443f3f;
     display: flex;
     align-items: center;
     gap: 30px;
-    margin-top: 50px;
+    margin-top: 15px;
 }
 #three:hover{
 background-color: #443f3f;
@@ -112,7 +113,7 @@ background-color: #443f3f;
     display: flex;
     align-items: center;
     gap: 30px;
-    margin-top: 50px;
+    margin-top: 15px;
 }
 #four:hover{
 background-color: #443f3f;
@@ -122,7 +123,7 @@ background-color: #443f3f;
     display: flex;
     align-items: center;
     gap: 30px;
-    margin-top: 50px;
+    margin-top: 15px;
 }
 #five:hover{
 background-color: #443f3f;
@@ -132,17 +133,17 @@ background-color: #443f3f;
     position: relative;
 }
 #copilot img{
-  height: 60px;
-  width: 60px;
+  height: 30px;
+  width: 30px;
 }
 #copilot p{
-    padding: 10px;
+    padding: 5px;
   position: fixed;
   bottom: 7%;
 font-weight: 500;
 font-family: Arial, Helvetica, sans-serif;
   color: white;
-  font-size: 30px;
+  font-size: 10px;
   background-color: #443f3f;
   display: none;
 }
@@ -158,17 +159,17 @@ scale: 1.2;
     position: relative;
 }
 #Medge img{
-    height: 60px;
-    width: 70px;
+    height: 30px;
+    width: 40px;
 }
 #Medge p{
-    padding: 10px;
+    padding: 5px;
   position: fixed;
   bottom: 7%;
 font-weight: 500;
 font-family: Arial, Helvetica, sans-serif;
   color: white;
-  font-size: 30px;
+  font-size: 10px;
   background-color: #443f3f;
   display: none;
 }
@@ -185,8 +186,9 @@ scale: 1.2;
     position: relative;
 }
 #discord img{
-    height: 80px;
-    width: 70px;
+    height: 40px;
+    width: 40px;
+    
 }
 #discord p{
     padding: 10px;
@@ -195,12 +197,13 @@ scale: 1.2;
 font-weight: 500;
 font-family: Arial, Helvetica, sans-serif;
   color: white;
-  font-size: 30px;
+  font-size: 10px;
   background-color: #443f3f;
   display: none;
 }
 #discord img:hover{
 scale: 1.2;
+
 }
 #discord:hover p{
     display: flex;
@@ -211,17 +214,17 @@ scale: 1.2;
     position: relative;
 }
 #vscode img{
-    height: 80px;
-    width: 70px;
+    height: 40px;
+    width: 40px;
 }
 #vscode p{
-    padding: 10px;
+    padding: 5px;
   position: fixed;
   bottom: 7%;
 font-weight: 500;
 font-family: Arial, Helvetica, sans-serif;
   color: white;
-  font-size: 30px;
+  font-size: 10px;
   background-color: #443f3f;
   display: none;
 }
@@ -234,16 +237,16 @@ scale: 1.2;
 
 
 #up{
-    height: 900px;
-    width: 600px;
+    height: 400px;
+    width: 250px;
     background-color: #222020;
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
     color: white;
     /* display: none; */
     display: none;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     position: fixed;
     top: 0;
     left: 0;
@@ -252,17 +255,18 @@ scale: 1.2;
     
 }
 
-
- #line h2{
+ #line, #line1, #line2{
     height: 1px;
-    opacity: 0.1;
+    opacity: 0.8;
     width: 100%;
-  background-color: aliceblue;
+  background-color:rgba(202, 194, 194, 0.158);
+  margin: 1px 0;
+  display: block;
 }
 
 #view{
     display: flex;
-    padding: 10px;
+    padding: 5px;
     align-items: center;
     justify-content: space-between;
 }
@@ -270,10 +274,10 @@ scale: 1.2;
 display: flex;
 gap: 20px;
 font-weight: 400;
-font-size: 30px;
+font-size: 15px;
 }
 #view i{
-   font-size: 30px; 
+   font-size: 15px; 
 }
 #view:hover{
 background-color: #383838;
@@ -281,7 +285,7 @@ background-color: #383838;
 
 #sort{
     display: flex;
-    padding: 10px;
+    padding: 5px;
     align-items: center;
     justify-content: space-between;
 }
@@ -292,15 +296,15 @@ background-color: #383838;
 display: flex;
 gap: 20px;
 font-weight: 400;
-font-size: 30px;
+font-size: 15px;
 }
 #sort i{
-   font-size: 30px; 
+   font-size: 15px; 
 }
 
 #refresh{
     display: flex;
-      padding: 10px;
+      padding: 5px;
     align-items: center;
     justify-content: space-between;
 }
@@ -311,12 +315,12 @@ font-size: 30px;
 display: flex;
 gap: 20px;
 font-weight: 400;
-font-size: 30px;
+font-size: 15px;
 }
 
 #UnDel{
     display: flex;
-      padding: 10px;
+      padding: 5px;
     align-items: center;
     justify-content: space-between;
 }
@@ -327,16 +331,16 @@ font-size: 30px;
 display: flex;
 gap: 20px;
 font-weight: 400;
-font-size: 30px;
+font-size: 15px;
 }
 #UnDel p{
-   font-size: 30px; 
+   font-size: 15px; 
 }
 
 
 #new{
     display: flex;
-      padding: 10px;
+      padding: 5px;
     align-items: center;
     justify-content: space-between;
 }
@@ -347,15 +351,15 @@ font-size: 30px;
 display: flex;
 gap: 20px;
 font-weight: 400;
-font-size: 30px;
+font-size: 15px;
 }
 #new i{
-   font-size: 30px; 
+   font-size: 15px; 
 }
 
 #display{
     display: flex;
-      padding: 10px;
+      padding: 5px;
     align-items: center;
     justify-content: space-between;
 }
@@ -366,13 +370,13 @@ font-size: 30px;
 display: flex;
 gap: 20px;
 font-weight: 400;
-font-size: 30px;
+font-size: 15px;
 }
 
 
 #personal{
     display: flex;
-      padding: 10px;
+      padding: 5px;
     align-items: center;
     justify-content: space-between;
 }
@@ -383,7 +387,7 @@ font-size: 30px;
 display: flex;
 gap: 20px;
 font-weight: 400;
-font-size: 30px;
+font-size: 15px;
 }
 
 
@@ -401,13 +405,13 @@ font-size: 30px;
 display: flex;
 gap: 20px;
 font-weight: 400;
-font-size: 30px;
+font-size: 15px;
 }
 
 
 #show{
     display: flex;
-      padding: 10px;
+      padding: 5px;
     align-items: center;
     justify-content: space-between;
 }
@@ -418,7 +422,7 @@ font-size: 30px;
 display: flex;
 gap: 20px;
 font-weight: 400;
-font-size: 30px;
+font-size: 15px;
 }
 #up.active{
 display: flex;
